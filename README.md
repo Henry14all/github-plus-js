@@ -1,2 +1,2 @@
 # github-plus-js
-又一个基于油猴脚本的GitHub多源加速下载 Another GitHub multi-source accelerated download based on the oil Tampermonkey
+基于别人的改的，先让我自己试用一段时间，再放上来
