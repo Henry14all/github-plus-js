@@ -1,5 +1,7 @@
 ## Github 加速与增强 - 高速下载
 
+### 官方脚本发布页：https://greasyfork.org/scripts/412883
+
 这是一个可以对Github进行下载加速以及增强的脚本
 
 基于https://greasyfork.org/scripts/412245 修改而来
@@ -39,7 +41,7 @@ CF加速 3 ：我搭建的，基于gh-proxy 系统的加速站
 若是我有空，我会随作者更新，若是我没空，不更新（嘻嘻~）
 
 ### 安装方法：（首先确保你有一个用户脚本管理器）
-1.访问https://greasyfork.org/zh-CN/scripts/412883 进行安装
+1.访问https://greasyfork.org/scripts/412883 进行安装
 
 2.访问https://raw.fastgit.org/Henry14all/github-plus-js/main/index.js 获取脚本，然后添加到你的用户脚本管理器（不建议非开发者使用此方式）
 
