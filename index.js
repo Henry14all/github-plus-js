@@ -34,7 +34,6 @@
     var clone_url1 = "https://hub.fastgit.org"; // 中国香港
     var clone_url2 = "https://gitclone.com"; // 中国浙江杭州
     var clone_url3 = "https://github.com.cnpmjs.org"; // 新加坡
-    var clone_url4 = "https://hub.fastgit.org/"; // 镜像站加速
     // 这里这里~~
     var raw_fast = "中国国内"; // 指定各个文件名后的云朵使用的高速下载链接，选择范围：[Github、中国国内、中国香港、美国洛杉矶]，各加速源注意事项看下面，自行选择~~
     // 这里这里~~
@@ -175,12 +174,10 @@
             var url1 = clone_url1 + "/" + href_split[3] + "/" + href_split[4] + ".git";
             var url2 = clone_url2 + "/github.com/" + href_split[3] + "/" + href_split[4] + ".git";
             var url3 = clone_url3 + "/" + href_split[3] + "/" + href_split[4] + ".git";
-            var url4 = clone_url4 + href_split[3] + "/" + href_split[4] + ".git";
             var html1 = `
 <div class="input-group" style="margin-top: 4px;"><input value="${url1}" aria-label="${url1}" type="text" class="form-control input-monospace input-sm bg-gray-light" data-autoselect="" readonly=""><div class="input-group-button"><clipboard-copy value="${url1}" aria-label="Copy to clipboard" class="btn btn-sm" tabindex="0" role="button">${download_clone_svg}</clipboard-copy></div></div>
 <div class="input-group" style="margin-top: 4px;"><input value="${url2}" aria-label="${url2}" type="text" class="form-control input-monospace input-sm bg-gray-light" data-autoselect="" readonly=""><div class="input-group-button"><clipboard-copy value="${url2}" aria-label="Copy to clipboard" class="btn btn-sm" tabindex="0" role="button">${download_clone_svg}</clipboard-copy></div></div>
 <div class="input-group" style="margin-top: 4px;"><input value="${url3}" aria-label="${url3}" type="text" class="form-control input-monospace input-sm bg-gray-light" data-autoselect="" readonly=""><div class="input-group-button"><clipboard-copy value="${url3}" aria-label="Copy to clipboard" class="btn btn-sm" tabindex="0" role="button">${download_clone_svg}</clipboard-copy></div></div>
-<div class="input-group" style="margin-top: 4px;"><input value="${url4}" aria-label="${url4}" type="text" class="form-control input-monospace input-sm bg-gray-light" data-autoselect="" readonly=""><div class="input-group-button"><clipboard-copy value="${url4}" aria-label="Copy to clipboard" class="btn btn-sm" tabindex="0" role="button">${download_clone_svg}</clipboard-copy></div></div>
 `;
             $(this).after(html1);
         });
