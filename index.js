@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Github 加速与增强 - 高速下载
-// @version      1.0.0
+// @version      1.0.1
 // @author       X.I.U,HenryJiu
 // @description  为 Github 的 Clone、Release、Raw、Code(ZIP) 添加高速下载和镜像站跳转，实现各种加速
 // @match        https://github.com/*/*
